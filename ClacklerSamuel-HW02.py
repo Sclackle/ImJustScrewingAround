@@ -34,7 +34,7 @@ morse = {
     'z':'--.. ',
     ' ':'  '
     }
-
+""" ChatGPT helped me with transforming input values into morse"""
 usr_inpt = input("write what you would like to be converted to morse code: ").lower()
 
 morse_output = ''.join(morse[char] for char in usr_inpt if char in morse)
